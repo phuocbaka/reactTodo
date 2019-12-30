@@ -1,0 +1,83 @@
+body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+    background-color:#ffff;
+    -webkit-box-shadow: -1px 6px 15px -10px rgba(0,0,0,0.39);
+    -moz-box-shadow: -1px 6px 15px -10px rgba(0,0,0,0.39);
+    box-shadow: -1px 6px 15px -10px rgba(0,0,0,0.39);
+    height: auto;
+    
+}
+.container h1{
+    font-size: 24px;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    margin-top: 20px;
+    padding-bottom: 6px;
+    color: #ffff;
+    background-color:#848484;
+    padding: 0 10px;
+}
+.container ul{
+    padding: 0;
+    list-style: none;
+}
+.container li{
+    line-height: 1.5;
+    color: #ff686f;
+    font-size: 12px;
+    padding: 3px 10px;
+}
+.container input[type="checkbox"] {
+    margin-right:5px;
+}
+.container form {
+    padding: 10px;
+}
+.cmd{
+    font-size: 12px;
+    cursor: pointer;
+    color:#08c;
+    margin-left: 5px;
+}
+.container input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 95%;
+}
+.container input[type="submit"] {
+    padding: 4px;
+    color: #ffff;
+    background-color: #54b8ff;
+    width: 80px;
+    border-radius: 13px;
+    cursor: pointer;
+    border: none; 
+}
+h1 > span {
+    color: #ececec;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+h1 > button {
+    float: right;
+    background-color: #ff7070;
+    color: white;
+    padding: 3px;
+    width: 66px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    margin-top: 6px;
+    cursor: pointer;
+    border: none;
+}
+.done{
+    text-decoration: line-through;
+    color: #cccccc;
+    padding: 16px 0;
+}
